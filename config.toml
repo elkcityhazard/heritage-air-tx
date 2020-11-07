@@ -1,0 +1,6 @@
+baseURL = "https://github.com/elkcityhazard/heritage-air-tx"
+languageCode = "en-us"
+publishDir = "docs"
+title = "My New Hugo Site"
+
+
