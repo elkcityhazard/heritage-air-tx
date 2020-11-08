@@ -1,0 +1,46 @@
+/********************
+**Table Of Contents**
+
+1. Top Header 
+
+*********************/
+
+
+/********************
+1. Top Header
+*********************/
+
+.preloader {
+    display: none !important;
+}
+
+header > .top_header {
+    background-color: #001c4c;
+    color: #fff;
+}
+
+.map {
+    color: #fff !important;
+}
+
+.cnt_hed > li > div > div > span {
+    color: #fff;
+}
+
+
+.navigations {
+    margin: 1em auto;
+    text-align: center;
+}
+
+.navigations > .container > nav {
+    float: initial;
+}
+
+.search_icon {
+    display: none;
+}
+
+.logo {
+    background-color: #001c4c;
+}
