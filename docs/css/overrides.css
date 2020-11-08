@@ -1,7 +1,11 @@
 /********************
 **Table Of Contents**
 
-1. Top Header 
+1. Top Header
+2. qck_sec
+
+8. Newsletter Section
+9. Footer
 
 *********************/
 
@@ -10,6 +14,10 @@
 1. Top Header
 *********************/
 
+/* * {
+    border: .25px dotted red;
+} */
+
 .preloader {
     display: none !important;
 }
@@ -17,6 +25,12 @@
 header > .top_header {
     background-color: #001c4c;
     color: #fff;
+}
+
+.responsive_hd_logo > a > img {
+    height: 100%;
+    max-height: 235px !important;
+    width: auto;
 }
 
 .map {
@@ -29,7 +43,7 @@ header > .top_header {
 
 
 .navigations {
-    margin: 1em auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -44,3 +58,97 @@ header > .top_header {
 .logo {
     background-color: #001c4c;
 }
+
+.responsive-header {
+}
+
+/********************
+2. qck-sec
+*********************/
+.qck-sec {
+    background-image: url('../images/bg1.jpg');
+}
+
+
+
+/********************
+8. Newsletter Section
+*********************/
+.newsletter-sec {
+    background: #13213b;
+}
+
+.nss_list li::before {
+    background-color: #fff;
+}
+
+ul.nss_list li span {
+    color: #ff0000;
+}
+
+ul.nss_list li {
+    color: #fff;
+}
+
+
+
+
+/********************
+9. Footer
+*********************/
+.p-3 {
+    padding: 1.5em 0;
+}
+
+.container-fluid > .container > h6 {
+    letter-spacing: .1em;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.footer-body {
+    background-color: #0b1529;
+    margin-top: 0;
+}
+
+.schrader-footer {
+    background-color: #091222;
+    color: #fff;
+    display: block;
+    padding: 1.5em;
+}
+
+.schrader-footer > .container a {
+    color: #ff0000;
+    padding: 0;
+    position: relative;
+    transition: 250ms ease-in-out;
+}
+
+.schrader-footer > .container a::after {
+    background: #ff0000;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 0;
+    margin-top: .25em;
+    position: absolute;
+    top: 100%;
+    transform-origin: left;
+    transition: 250ms ease-in-out;
+    width: 0;
+}
+
+.schrader-footer > .container a:hover {
+    color: #fff;
+}
+
+.schrader-footer > .container a:hover::after {
+    width: 100%;
+}
+
+
+
+
+
+
