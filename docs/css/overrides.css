@@ -20,6 +20,10 @@
     border: .25px dotted red;
 } */
 
+.bg-beige {
+    background-color: #f5f5dc;
+}
+
 .preloader {
     display: none !important;
 }
