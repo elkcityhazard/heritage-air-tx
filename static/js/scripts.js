@@ -57,16 +57,16 @@ $(window).on("load", function() {
 
 	//  ==================== STICKY HEADER  ====================
 
-    $(window).on("scroll", function() {
-        var scroll = $(window).scrollTop();
-        if (scroll > 100) {
-        	$(".responsive-header, .hd_opts").addClass("sticky animated slideInDown");
-            $(".scrollTop").addClass("active");
-        } else if (scroll < 600) {
-            $(".responsive-header, .hd_opts").removeClass("sticky animated slideInDown");
-            $(".scrollTop").removeClass("active");
-        }
-    });
+    // $(window).on("scroll", function() {
+    //     var scroll = $(window).scrollTop();
+    //     if (scroll > 100) {
+    //     	$(".responsive-header, .hd_opts").addClass("sticky animated slideInDown");
+    //         $(".scrollTop").addClass("active");
+    //     } else if (scroll < 600) {
+    //         $(".responsive-header, .hd_opts").removeClass("sticky animated slideInDown");
+    //         $(".scrollTop").removeClass("active");
+    //     }
+    // });
 
     // ======================== SCROLL TO TOP ========================
 
@@ -149,6 +149,7 @@ $(window).on("load", function() {
 
 
 });
+
 
 
     
