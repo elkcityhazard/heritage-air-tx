@@ -11,6 +11,11 @@
 
 *********************/
 
+.margin-center {
+    display: block;
+    margin: 0 auto;
+}
+
 
 /********************
 1. Top Header
@@ -19,6 +24,10 @@
 /* * {
     border: .25px dotted red;
 } */
+
+#Capa_1 {
+    color: #e6e6e6 !important;
+}
 
 .bg-beige {
     background-color: #f5f5dc;
@@ -31,6 +40,26 @@
 header > .top_header {
     background-color: #001c4c;
     color: #fff;
+}
+
+.emg-sec > span:nth-child(1) {
+    color: #e6e6e6;
+}
+
+.emg-sec > h4:nth-child(2) {
+    color: #fff;
+}
+
+.social_links > li > a {
+    color: #fff;
+}
+
+.hd_opts {
+    display: none;
+}
+
+.hd_is > svg > g {
+    color: #e6e6e6 !important;
 }
 
 .responsive_hd_logo > a > img {
@@ -71,6 +100,20 @@ header > .top_header {
 *********************/
 .qck-sec {
     background-image: url('../images/bg1.jpg');
+}
+
+/* section.block:nth-child(7) {
+    height: 0;
+    margin: 0;
+    padding: 0;
+} */
+
+section.block:nth-child(7) > div:nth-child(1) > div:nth-child(1) > h4:nth-child(1) {
+    display: none;
+}
+
+section.block:nth-child(7) {
+    padding: 2em;
 }
 
 
@@ -135,12 +178,21 @@ ul.nss_list li {
     background-image: url('../images/bg5.jpg');
 }
 
+.testimonial-stars {
+    padding-bottom: 1em;
+}
+
 
 /********************
 9. Footer
 *********************/
 .p-3 {
-    padding: 1.5em 0;
+    padding: 4em 0;
+}
+
+.container-fluid > div:nth-child(1) > h6:nth-child(1) {
+    text-transform: initial;
+    font-size: 2em;
 }
 
 
@@ -167,7 +219,12 @@ ul.nss_list li {
     padding-left: .85em;
 }
 
+.social_lnks {
+    margin: 0 auto;
+}
+
 .social_lnks > li {
+    margin: auto;
     
 }
 
@@ -223,20 +280,28 @@ ul.nss_list li {
     width: 100%;
 }
 
+ul.footer-nav-menu {
+    padding: 1em 0;
+    text-align: center;
+}
+
 ul.footer-nav-menu li a {
     color: #fff;
 }
 
 .media + h5 {
     color: #e6e6e6;
+    text-align: center;
 }
 
 .f_title h3 {
     color: #e6e6e6;
+    text-align: center;
 }
 
 .footer_address p {
-    text-align: left;
+    margin: 1em auto;
+    text-align: center;
 }
 
 .footer_address > p > a {
@@ -263,18 +328,92 @@ ul.footer-nav-menu li a {
 }
 
 .media > div > img {
-    float: left;
+    display: block;
+    float: none;
+    margin: 1em auto;
+    text-align: center;
 }
 
 .media-body > h4:nth-child(1) {
-    color: #e6e6e6;
-    line-height: 1.50;
+    color: #000;
+    line-height: 1.25;
     padding: .25em 1.25em;
+    text-align: center;
+}
+
+.replacement_area > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h5:nth-child(2) {
+    text-align: center;
+}
+
+.payment_widget > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1) {
+    color: #e6e6e6;
+}
+
+.widget {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 968px) {
+
+    .replacement_area {
+        background-color:#005eff;
+        border-top: 7px solid #bb202e;
+        color: #000;
+        margin-top: -45px;
+        max-height: 135px;
+        position: relative;
+        width: 100%;
+    }
+
+    .replacement_area > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
+        bottom: 0;
+        left: 25%;
+        margin-bottom: 0;
+        margin-top: -45px;
+        padding-bottom: 0;
+        padding-right: 1.5em;
+        position: absolute;
+        transform: translateX(-66%);
+    }
+
+    .replacement_area > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+        color: #fff;
+    }
+
+    .replacement_area > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h5:nth-child(2) {
+        color: #fff;
+    }
+
+    .replacement_area > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
+        left: 25%;
+    }
+
+    .qck-formatting {
+        margin: 0 auto 1em;
+        max-width: 100ch;
+        text-align: center;
+    }
+
+    .qck-formatting p {
+        text-align: left;
+    }
+
+    a.lnk-default {
+        margin: 0 auto !important;
+        text-align: center;
+    }
+
+    #read-more {
+        text-align: center !important;
+    }
 }
 
 
 
-@media screen and (min-width: 1365px) {
+
+
+@media screen and (min-width: 1367px) {
 
     .replacement_area {
         background-color:#005eff;
@@ -294,6 +433,9 @@ ul.footer-nav-menu li a {
     .replacement_area > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
         bottom: 0;
         left: 33%;
+        margin-bottom: 0;
+        margin-top: -45px;
+        padding-bottom: 0;
         padding-right: 1.5em;
         position: absolute;
         transform: translateX(-66%);
