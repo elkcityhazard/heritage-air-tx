@@ -274,8 +274,11 @@ ul.footer-nav-menu li a {
 
     .replacement_area {
         background-color:#005eff;
+        border-top: 7px solid #bb202e;
         color: #000;
-        display: block;
+        margin-top: -45px;
+        max-height: 135px;
+        position: relative;
         width: 100%;
     }
 
@@ -285,8 +288,11 @@ ul.footer-nav-menu li a {
     }
 
     .replacement_area > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
-        
-        z-index: 10000;
+        bottom: 0;
+        left: 33%;
+        padding-right: 1.5em;
+        position: absolute;
+        transform: translateX(-66%);
     }
 
     .replacement_area > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1) {
