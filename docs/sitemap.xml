@@ -3,15 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://elkcityhazard.github.io/heritage-air-tx/categories/</loc>
+    <loc>localhost:1313/categories/</loc>
   </url>
   
   <url>
-    <loc>https://elkcityhazard.github.io/heritage-air-tx/</loc>
+    <loc>localhost:1313/</loc>
   </url>
   
   <url>
-    <loc>https://elkcityhazard.github.io/heritage-air-tx/tags/</loc>
+    <loc>localhost:1313/services/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/tags/</loc>
   </url>
   
 </urlset>

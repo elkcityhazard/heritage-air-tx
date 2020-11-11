@@ -6,6 +6,7 @@
 3. colors
 4. Additional Services
 5. Why Choose Us
+7. Single Page Styles
 8. Newsletter Section
 9. Footer
 
@@ -119,6 +120,26 @@ section.block:nth-child(7) {
 
 
 /********************
+8. Single Page Styles
+*********************/
+.page-title {
+    margin: 1em auto;
+    text-align: center;
+}
+
+.single-page > p {
+    line-height: 1.5;
+    font-size: 1.25em;
+}
+
+.center-margin {
+    float: none;
+    display: block;
+    margin: 1em auto;
+}
+
+
+/********************
 8. Newsletter Section
 *********************/
 .newsletter-sec {
@@ -186,6 +207,8 @@ ul.nss_list li {
 /********************
 9. Footer
 *********************/
+
+
 .p-3 {
     padding: 4em 0;
 }
@@ -206,6 +229,7 @@ ul.nss_list li {
 }
 
 .footer-content {
+    margin: 1em auto;
     width: 100%;
 }
 
@@ -213,10 +237,21 @@ ul.nss_list li {
     background-color: #002F7F;
     color: #fff;
     margin-top: 0;
+    text-align: center !important;
 }
 
-.widget {
-    padding-left: .85em;
+.payment-header {
+    color: #fff;
+}
+
+.payment-options {
+    padding-left: .5em;
+}
+
+.widget-override {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    width: 100% !important;
 }
 
 .social_lnks {
@@ -296,12 +331,13 @@ ul.footer-nav-menu li a {
 
 .f_title h3 {
     color: #e6e6e6;
-    text-align: center;
+    margin-top: 1em;
 }
 
 .footer_address p {
-    margin: 1em auto;
-    text-align: center;
+    margin: auto;
+    padding-left: 2em;
+    text-align: left;
 }
 
 .footer_address > p > a {
@@ -352,6 +388,19 @@ ul.footer-nav-menu li a {
 .widget {
     margin: 0 auto;
     text-align: center;
+}
+
+@media screen and (min-width:499px) {
+    .footer_address {
+        margin: 1em auto;
+        max-width: 250px;
+        width: 75%;
+    }
+
+    .footer_address > p {
+        padding: initial;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 968px) {
@@ -407,6 +456,11 @@ ul.footer-nav-menu li a {
     #read-more {
         text-align: center !important;
     }
+
+    .f_title h3 {
+        color: #e6e6e6;
+        margin-top: intial;
+    }
 }
 
 
@@ -455,10 +509,17 @@ ul.footer-nav-menu li a {
         color: #fff;
     }
 
+    .footer-body {
+        margin: 0 auto;
+        padding-top: 1em;
+
+    }
+
     .footer-content {
         color: #fff;
         margin: 0 auto;
-        max-width: 1366px;
+        max-width: 968px;
+        text-align: center;
     }
 
     .my-1 {
@@ -477,14 +538,25 @@ ul.footer-nav-menu li a {
     ul.footer-nav-menu {
         display: flex;
         flex-wrap: wrap;
-        padding-left: 0;
+        margin: 0 auto;
+        padding: 0 0 1em;
+        width: 50%;
     }
 
     ul.footer-nav-menu li {
-        display: inline-block;
-        margin-bottom: 7px;
+        display: inline;
         padding-left: 0;
-        width: 50%;
+        width: 100%;
+        text-align:left;
+    }
+
+    .payment-options {
+        text-align: left;
+    }
+
+    .footer_address > p {
+        padding: initial;
+        text-align: left;
     }
 
 }

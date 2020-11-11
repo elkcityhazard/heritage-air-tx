@@ -664,7 +664,7 @@ body.layout2 {
 }
 .emg-sec > h4 i {
   position: relative;
-  color: #5e5e5e;
+  color: #e6e6e6;
   font-size: 15px;
   margin-right: 9px;
 }
@@ -762,7 +762,7 @@ body.layout2 {
   height: 17px;
 }
 .hd_is svg path {
-  fill: #5e5e5e;
+  fill: #fff;
 }
 .hd_is.time {
   top: 3px;

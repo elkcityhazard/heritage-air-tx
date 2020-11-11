@@ -1,4 +1,4 @@
-baseURL = "https://elkcityhazard.github.io/heritage-air-tx"
+baseURL = "localhost:1313/"
 languageCode = "en-us"
 publishDir = "docs"
 title = "My New Hugo Site"
