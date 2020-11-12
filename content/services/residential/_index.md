@@ -1,7 +1,7 @@
 ---
 type: page
-layout: services-single
-title: Single Service Page Title
+layout: single
+title: Residential Services
 url: /services/residential
 ---
 
