@@ -1,0 +1,15 @@
+
+
+
+<div class="gallery-content text-center">
+    <div class="gallery-tab active" id="cooling-gallery-tab">
+        {{ range .Params.images }}
+        <div class="gallery-info">
+            <img src="{{.}}" class="gallery-image" alt="gallery-image">
+        </div><!--gallery-info end-->
+{{ end }}
+        
+    </div><!--gallery-tab end-->
+</div><!--tab-content end-->
+<div class="clearfix"></div>
+</div><!--gallery-sec end-->

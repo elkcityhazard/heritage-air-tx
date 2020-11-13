@@ -1,0 +1,26 @@
+{{define "main" }}
+
+<div class="row container">
+    <div class="container">
+        <div class="col-lg-12 col-md-9 col-sm-9 center-margin">
+            <h1 class="page-title">{{.Title}}</h1>
+        </div>
+    </div>
+</div>
+<div class="row container">
+    <div class="container container-75">
+        <div class="col-lg-6 col-md-9 col-sm-12">
+            <span class="sub-title">{{.Params.subtitle }}</span>
+            {{ .Content }}
+        </div>
+        <div class="col-lg-6 col-md-9 col-sm-12">
+            <figure>
+                <img src="/images/about-us.jpg" alt="about us logo" loading="lazy" class="about-us">
+            </figure>
+        </div>
+    </div>
+</div>
+
+{{ partial "choose-services.html" . }}
+
+{{ end }}
