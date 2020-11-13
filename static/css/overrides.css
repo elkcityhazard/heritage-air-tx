@@ -696,6 +696,10 @@ ul.footer-nav-menu li a {
         color: #e6e6e6;
         margin-top: intial;
     }
+
+    .footer-submenu-item {
+        padding: .45em;
+    }
 }
 
 
