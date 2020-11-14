@@ -3,75 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>localhost:1313/about-us/</loc>
+    <loc>http://127.0.0.1:1313/about-us/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/categories/</loc>
+    <loc>http://127.0.0.1:1313/categories/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/services/commercial/</loc>
+    <loc>http://127.0.0.1:1313/services/commercial/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/gallery/</loc>
+    <loc>http://127.0.0.1:1313/gallery/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/</loc>
+    <loc>http://127.0.0.1:1313/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/services/new-commercial-system-sales/</loc>
+    <loc>http://127.0.0.1:1313/services/new-commercial-system-sales/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/services/new-residential-system-sales/</loc>
+    <loc>http://127.0.0.1:1313/services/new-residential-system-sales/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/service-areas/</loc>
+    <loc>http://127.0.0.1:1313/service-areas/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/service-areas/dallas-county/</loc>
+    <loc>http://127.0.0.1:1313/service-areas/dallas-county/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/service-areas/ellis-county/</loc>
+    <loc>http://127.0.0.1:1313/service-areas/ellis-county/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/service-areas/johnson-county/</loc>
+    <loc>http://127.0.0.1:1313/service-areas/johnson-county/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/service-areas/parker-county/</loc>
+    <loc>http://127.0.0.1:1313/service-areas/parker-county/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/service-areas/rockwall-county/</loc>
+    <loc>http://127.0.0.1:1313/service-areas/rockwall-county/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/service-areas/tarrant-county/</loc>
+    <loc>http://127.0.0.1:1313/service-areas/tarrant-county/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/services/residential-preventative-maintenance/</loc>
+    <loc>http://127.0.0.1:1313/services/residential-preventative-maintenance/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/services/residential/</loc>
+    <loc>http://127.0.0.1:1313/services/residential/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/services/</loc>
+    <loc>http://127.0.0.1:1313/services/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/tags/</loc>
+    <loc>http://127.0.0.1:1313/tags/</loc>
   </url>
   
 </urlset>

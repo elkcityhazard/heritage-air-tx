@@ -1,6 +1,4 @@
-baseURL = "localhost:1313/"
+baseURL = "http://127.0.0.1:1313/"
 languageCode = "en-us"
 publishDir = "docs"
-title = "My New Hugo Site"
-
-
+title = "Heritage Air Services, LLC - HVAC Services - Venus, Texas"

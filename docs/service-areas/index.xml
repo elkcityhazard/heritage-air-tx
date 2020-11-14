@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Our Service Area on My New Hugo Site</title>
-    <link>localhost:1313/service-areas/</link>
-    <description>Recent content in Our Service Area on My New Hugo Site</description>
+    <title>Our Service Area on Heritage Air Services, LLC - HVAC Services - Venus, Texas</title>
+    <link>http://127.0.0.1:1313/service-areas/</link>
+    <description>Recent content in Our Service Area on Heritage Air Services, LLC - HVAC Services - Venus, Texas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="localhost:1313/service-areas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://127.0.0.1:1313/service-areas/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

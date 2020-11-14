@@ -110,6 +110,24 @@ aside.schedule-appointment {
     
 }
 
+.emg-sec {
+    width: 100%;
+}
+
+.emg-sec > ul {
+    padding-left: 0;
+}
+
+.emg-sec > ul > li {
+    text-align: left !important;
+}
+
+.emg-sec > ul > li > a {
+    font-weight: bold;
+    font-size: 1.33em;
+    text-align: left !important;
+}
+
 a.btn {
     background-color: #ff0000 !important;
     border: .5px solid #999;
@@ -118,7 +136,6 @@ a.btn {
     display: block;
     font-weight: bold;
     margin: .5em auto 0;
-    max-width: 250px;
     padding: .25em .5em;
     transform-origin: left;
     transition: 350ms ease-in-out;
@@ -150,8 +167,35 @@ header > .top_header {
     color: #e6e6e6;
 }
 
-.emg-sec > h4:nth-child(2) {
+.emg-sec > h4 {
     color: #fff;
+    font-size: .66em; 
+    font-weight: bold; 
+    margin-bottom: 13px;
+    text-align: left;
+}
+
+.emg-sec > h4 > a {
+    font-size: 13px;
+}
+
+.emg-sec > h4 > a > i {
+    display: inline;
+}
+
+.hide-on-mobile {
+    display: none !important;
+}
+
+.hide-on-mobile + a {
+    display: block;
+    padding-left: 0;
+    width: 100%;
+}
+
+.flex-me-1 > li:nth-child(1) > a:nth-child(1) > i:nth-child(1) {
+    margin-left: -.73em;
+    padding-right: .5em;
 }
 
 .social_links > li > a {
@@ -312,6 +356,7 @@ ul.nss_list li {
 }
 
 
+
 /********************
 3. Colors
 *********************/
@@ -395,6 +440,12 @@ ul.footer-address {
 .fa-paper-plane-o {
     font-size: 1em !important;
     padding-top: 2px;
+}
+
+
+.fa-map-marker {
+    left: .35em;
+    
 }
 
 
@@ -702,6 +753,56 @@ ul.footer-nav-menu li a {
 }
 
 @media screen and (min-width: 968px) {
+
+  
+
+    .hide-on-mobile {
+        display: inline-block !important;
+        height: 0 !important;
+        margin-left: 1em;
+        padding-right: .5em;
+    }
+
+    .hide-on-mobile > a {
+        font-size: .9em;
+    }
+
+    .hide-on-mobile + a {
+        padding-left: 1em;
+    }
+
+    .flex-me {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin-left: 0;
+    }
+
+    ul.flex-me-1,
+    ul.flex-me-2 {
+        list-style-position: inside !important;
+    }
+
+    ul.flex-me-1 li:first-child {
+        padding-top: 0;
+    }
+
+    ul.flex-me-1 li:first-child a {
+        margin-top: 0;
+        padding-top: 0;
+    } 
+
+    .flex-me-1 {
+        flex: 1;
+    }
+
+    .flex-me-2 {
+        flex: 2;
+    }
+
+    .flex-me-1 > li:nth-child(1) > a:nth-child(1) > i:nth-child(1) {
+        padding-right: .5em;
+    }
     aside.schedule-appointment {
         display: none;
     }
@@ -818,6 +919,17 @@ ul.footer-nav-menu li a {
 
 
 @media screen and (min-width: 1366px) {
+
+    
+
+    .header-1080 {
+        width: 90%;
+    }
+
+    .flex-me-1 > li:nth-child(1) > a:nth-child(1) > i:nth-child(1) {
+        margin-left: .66em;
+        padding-right: .33em;
+    }
 
 
     .container-75 {
@@ -940,8 +1052,13 @@ ul.footer-nav-menu li a {
 }
 
 @media screen and (min-width: 1920px) {
+    
+    .flex-me-1 > li:nth-child(1) > a:nth-child(1) > i:nth-child(1) {
+    margin-left: .66em;
+    padding-right: .33em;
+}
     .proudly-serving {
-        margin: 2em auto 1em;
+        margin: .5em auto 0;
         min-height: 100px;
         font-size: 50px;
     }
