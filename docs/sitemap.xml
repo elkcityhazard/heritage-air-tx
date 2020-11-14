@@ -15,15 +15,7 @@
   </url>
   
   <url>
-    <loc>localhost:1313/service-areas/dallas-county/</loc>
-  </url>
-  
-  <url>
-    <loc>localhost:1313/service-areas/ellis-county/</loc>
-  </url>
-  
-  <url>
-    <loc>localhost:1313/service-areas/johnson-county/</loc>
+    <loc>localhost:1313/gallery/</loc>
   </url>
   
   <url>
@@ -39,7 +31,31 @@
   </url>
   
   <url>
+    <loc>localhost:1313/service-areas/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/service-areas/dallas-county/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/service-areas/ellis-county/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/service-areas/johnson-county/</loc>
+  </url>
+  
+  <url>
     <loc>localhost:1313/service-areas/parker-county/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/service-areas/rockwall-county/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/service-areas/tarrant-county/</loc>
   </url>
   
   <url>
@@ -51,23 +67,11 @@
   </url>
   
   <url>
-    <loc>localhost:1313/service-areas/rockwall-county/</loc>
-  </url>
-  
-  <url>
-    <loc>localhost:1313/service-areas/</loc>
-  </url>
-  
-  <url>
     <loc>localhost:1313/services/</loc>
   </url>
   
   <url>
     <loc>localhost:1313/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>localhost:1313/service-areas/tarrant-county/</loc>
   </url>
   
 </urlset>

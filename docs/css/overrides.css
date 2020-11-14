@@ -13,8 +13,13 @@
 *********************/
 
 /* * {
-    border: .25px dotted red;
+    border: 1px dotted red !important;
 } */
+.row {
+    width: 100%;
+    margin: 0 auto !important;
+    padding: 0;
+}
 
 .margin-center {
     display: block;
@@ -41,13 +46,20 @@ img.about-us {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     line-height: 1.25;
+    margin: 0 auto;
     padding-top: 1em;
+}
+
+.single-page > p {
+    margin: 0 auto 1em;
+    max-width: 60ch;
+    text-align: left;
 }
 
 span.sub-title {
     color: #2970e3;
     display: inline-block;
-    font-size: .75em;
+    font-size: .95em;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 1.5em;
@@ -73,6 +85,7 @@ span.sub-title {
 }
 
 
+
 /********************
 1. Top Header
 *********************/
@@ -80,6 +93,41 @@ span.sub-title {
 /* * {
     border: .25px dotted red;
 } */
+
+aside.schedule-appointment {
+    background-color: #000;
+    color: #fff;
+    margin: auto;
+    width: 100%;
+}
+
+.schedule-appointment-phone a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-top: 25px;
+    
+}
+
+a.btn {
+    background-color: #ff0000 !important;
+    border: .5px solid #999;
+    border-radius: 7.5px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin: .5em auto 0;
+    max-width: 250px;
+    padding: .25em .5em;
+    transform-origin: left;
+    transition: 350ms ease-in-out;
+}
+
+a.btn:hover {
+    background-color: #fff !important;
+    color: #ff0000;
+}
 
 #Capa_1 {
     color: #e6e6e6 !important;
@@ -155,6 +203,42 @@ header > .top_header {
     margin: 0em .5em 1em;
 }
 
+/********************
+** Page ID's*********
+*********************/
+
+.page-title {
+    color: #f47629;
+    font-size: 2.25em;
+}
+
+.counties {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.single-page > ul {
+    display: inline-block;
+    flex: 1;
+    margin: 1em auto !important;
+    min-width: 200px !important;
+    padding: .5em .75em 1em;
+    vertical-align: top;
+    width: auto;
+
+    
+}
+
+.single-page > ul > li {
+    font-size: 1.25em;
+    line-height: 1.25;
+    list-style: initial;
+    padding-right: 1.25em;
+    text-align: left;
+}
+
 
 /********************
 2. qck-sec
@@ -201,6 +285,11 @@ section.block:nth-child(7) {
     display: block;
     margin: 1em auto;
 }
+
+/* .choose_services_sec {
+    display: flex;
+    flex-direction: column;
+} */
 
 
 /********************
@@ -279,13 +368,18 @@ ul.nss_list li {
 
 .proudly-serving {
     font-size: 1.5em;
-    margin: 1.5em auto 1em;
+    margin: .5 auto;
     font-weight: 700;
 }
 
 footer {
     background-color: #002f7f;
     color: #fff;
+}
+
+ul.footer-address {
+    margin: 0 auto;
+    padding: 0;
 }
 
 .footer-address > li {
@@ -299,9 +393,10 @@ footer {
 .fa-map-marker,
 .fa-phone,
 .fa-paper-plane-o {
-    font-size: 1.5em;
+    font-size: 1em !important;
     padding-top: 2px;
 }
+
 
 .fa-facebook,
 .fa-twitter,
@@ -380,6 +475,7 @@ span.address-text > a {
 
 .footer-image {
     height: auto;
+    margin: 0 auto;
     max-width: 225px;    
 }
 
@@ -606,6 +702,9 @@ ul.footer-nav-menu li a {
 }
 
 @media screen and (min-width: 968px) {
+    aside.schedule-appointment {
+        display: none;
+    }
 
     #cooling-gallery-tab {
         flex-direction: row;
@@ -650,9 +749,13 @@ ul.footer-nav-menu li a {
         width: 100%;
     }
 
+    .media-body > h4 {
+        position: relative;
+    }
+
     .replacement_area > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
         bottom: 0;
-        left: 25%;
+        left: 0;
         margin-bottom: 0;
         margin-top: -45px;
         padding-bottom: 0;
@@ -700,6 +803,14 @@ ul.footer-nav-menu li a {
     .footer-submenu-item {
         padding: .45em;
     }
+
+    ul.appointment-header {
+        width: 100%;
+    }
+
+    ul.appointment-header li {
+        width: 100%;
+    }
 }
 
 
@@ -707,6 +818,7 @@ ul.footer-nav-menu li a {
 
 
 @media screen and (min-width: 1366px) {
+
 
     .container-75 {
         margin: auto;
@@ -759,8 +871,20 @@ ul.footer-nav-menu li a {
     }
 
     .proudly-serving {
+        display: block;
         font-size: 3em;
-        margin-top: 2em;
+        margin-top: 0em;
+        min-height: 100px;
+    }
+
+    .proudly-serving i {
+        display: inline-block;
+       height: 100%;
+       line-height: 1;
+       min-height: 100px;
+       padding: .5em;
+       text-transform: capitalize;
+       width: 100%;
     }
 
     .footer-body {
@@ -818,6 +942,7 @@ ul.footer-nav-menu li a {
 @media screen and (min-width: 1920px) {
     .proudly-serving {
         margin: 2em auto 1em;
+        min-height: 100px;
         font-size: 50px;
     }
 

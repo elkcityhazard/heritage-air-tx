@@ -1,0 +1,38 @@
+{{define "main" }}
+<div class="container text-center">
+    <br />
+    <h1>{{.Title}}</h1>
+</div>
+
+<section class="cards">
+    <div class="card">
+      <h2><a href="/service-areas/dallas-county">Dallas County</a></h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque sapiente eius architecto autem delectus dicta! Officiis consequatur accusantium dolorum debitis?</p>
+    </div>
+    <div class="card">
+      <h2><a href="/service-areas/ellis-county">Ellis County</a></h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis vitae voluptatum sapiente culpa ipsum, necessitatibus esse explicabo odit quasi quibusdam.</p>
+    </div>
+    <div class="card">
+      <h2><a href="//service-areas/johnson-county">Johnson County</a></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quis enim, veniam fugiat reprehenderit voluptates aliquam libero pariatur sequi provident?</p>
+    </div>
+    
+</section>
+  <section class="cards">
+    <div class="card">
+        <h2><a href="/service-areas/parker-county">Parker County</a></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quis enim, veniam fugiat reprehenderit voluptates aliquam libero pariatur sequi provident?</p>
+      </div>
+      <div class="card">
+        <h2><a href="/service-areas/tarrant-county">Tarrant County</a></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quis enim, veniam fugiat reprehenderit voluptates aliquam libero pariatur sequi provident?</p>
+      </div>
+      <div class="card">
+        <h2><a href="/service-areas/rockwall-county">Rockwall County</a></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quis enim, veniam fugiat reprehenderit voluptates aliquam libero pariatur sequi provident?</p>
+      </div>
+    </section>
+  
+{{ partial "choose-services.html" . }}
+{{ end }}
