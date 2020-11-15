@@ -9,6 +9,7 @@
 7. Single Page Styles
 8. Newsletter Section
 9. Footer
+10. gallery css
 
 *********************/
 
@@ -257,9 +258,13 @@ header > .top_header {
 }
 
 .counties {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+
+.counties > ul {
+    list-style-type: circle;
 }
 
 
@@ -374,12 +379,22 @@ ul.nss_list li {
 }
 
 
+
 /********************
 5. Why Choose Us
 *********************/
 
 .bg3 {
     background-image: url('../images/bg3.jpg');
+}
+
+.gallery-info {
+    width: 100%;
+}
+
+.gallery-info:last-child {
+    margin-right: 1em;
+    padding-right: 1em;
 }
 
 
@@ -730,6 +745,8 @@ ul.footer-nav-menu li a {
     margin: 0 auto;
     text-align: center;
 }
+
+
 
 @media screen and (min-width:499px) {
     .footer_address {

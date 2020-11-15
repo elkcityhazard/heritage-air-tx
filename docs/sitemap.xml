@@ -59,11 +59,11 @@
   </url>
   
   <url>
-    <loc>http://127.0.0.1:1313/services/residential-preventative-maintenance/</loc>
+    <loc>http://127.0.0.1:1313/services/residential/</loc>
   </url>
   
   <url>
-    <loc>http://127.0.0.1:1313/services/residential/</loc>
+    <loc>http://127.0.0.1:1313/services/residential-preventative-maintenance/</loc>
   </url>
   
   <url>
