@@ -31,12 +31,13 @@
   }
   .card {
     background: white;
+    border: 1px solid #f4f4f4;
     border-radius: 1rem;
     cursor: pointer;
     padding: 1.5rem;
-    box-shadow: 3px 3px 12px 2px rgba(black, 0.6);
+    box-shadow: 0px 15px 30px rgba(44,44,44,0.10);
     max-width: 275px;
-    min-height: 50vh;
+    min-height: 25vh;
     text-align: initial;
     transition: 0.2s;
   }

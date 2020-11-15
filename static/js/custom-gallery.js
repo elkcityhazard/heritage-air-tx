@@ -1,3 +1,8 @@
+/*
+Author: Andrew M McCall
+url: https://andrew-mccall.com
+*/
+
 const fullGallery = document.querySelector('.full-gallery');
 const images = document.querySelectorAll('.gallery-container-item');
 const back = document.getElementById('backward');

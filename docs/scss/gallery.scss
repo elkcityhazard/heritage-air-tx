@@ -1,3 +1,12 @@
+/*
+Author: Andrew M McCall
+https://andrew-mccall.com/
+*/
+
+* {
+    box-sizing: border-box;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -9,12 +18,23 @@
 
 body {
     overflow-x: hidden;
+    max-width: 100%;
     position: relative !important;
+    width: 100%;
+}
+
+.gallery-info {
+    margin: 1em auto !important;
+    padding: 0;
+    text-align: center;
 }
 
 .gallery-info > img {
     border: 1px solid #777;
     cursor: pointer;
+    height: auto;
+    margin: auto;
+    width: 100%;
     opacity: .77;
 }
 
@@ -27,9 +47,14 @@ body {
     text-align: center;
 }
 #our-gallery + p {
+    font-family: monospace;
+    font-size: 1.11em;
+    font-weight: 900;
     margin: 1em auto;
     max-width: 60ch;
+    padding: 1em;
 }
+
 
 .full-gallery {
     background: rgba(15,15,15,0.75);
@@ -45,34 +70,46 @@ body {
 
 .gallery-container {
     display: block;
-    height: 100%;
+    height: 100vh;
     margin: 0 auto;
     width: 100%;
 }
 .gallery-container-item {
     display: none;
-    margin: 1em auto;
-    min-height: 75vh;
-    min-width: 75vh;
+    margin: .25em auto;
+    min-height: 100%;
+    min-width: 100%;
 }
 
-
-
-.gallery-container-item > figure > img {
+.gallery-container-item > figure {
     animation: fadeIn 350ms;
-    border: 1px solid #fff;
+    border: .25px solid #f4f4f4;
     border-radius: 10px;
     display: block;
     height: auto;
     left: 50%;
-    margin: 1em auto;
+    margin: 0 auto;
     max-width: 75%;
-    max-height: 75vh;
+    max-height: 100%;
+    overflow: hidden;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
     transform-origin: center;
     transition: 250ms ease-in-out;
+}
+
+.gallery-container-item > figure > img {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    transition: 250ms;
+    width: 100%;
+}
+
+.gallery-container-item > figure > img:hover {
+    transform: scale(1.2);
 }
 
 
@@ -86,6 +123,7 @@ body {
     right: 1.5em;
     top: 1em;
     transition: 250ms ease-in-out;
+    z-index: 999999999999999999;
 }
 
 #close:hover {
@@ -120,6 +158,15 @@ body {
 
 
 @media screen and (min-width: 1365px) {
+
+    .gallery-container-item > figure {
+        overflow-y: auto;
+    }
+
+    .gallery-container-item > figure > img {
+        width: 100%;
+    }
+
     #backward {
         left: 4em;
     }
@@ -128,4 +175,10 @@ body {
         right: 4em;
     }
 
+}
+
+@media screen and (min-width: 1920px) {
+    .gallery-container-item > figure > img {
+        max-height: 750px;
+    }
 }

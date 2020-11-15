@@ -479,7 +479,6 @@ ul.footer-address {
 .fa-instagram:hover,
 .fa-yelp:hover {
     color: #999;
-    transform: rotate(360deg);
 }
 
 .social-item-link {

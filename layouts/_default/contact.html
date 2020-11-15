@@ -1,0 +1,61 @@
+{{define "main" }}
+<div class="page-content p-0">
+    <div class="container">
+        <section class="getin_touch block">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="gettouch_text">
+                        <h3 class="sc-title">Get In <span>Touch</span></h3>
+                        <p>Contact us if you have any questions about some of our HVAC services. You can also call if you need help with a heating, cooling or air quality issues. We provide free quotes for any new heating or AC equipment installation. Whether you need residential or commercial services, our experienced HVAC specialists are ready to serve you. </p>
+                        <h4>Follow us:</h4>
+                        <ul class="social_lnks">
+                            <li><a href="https://www.facebook.com/HeritageAirTX" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div><!--gettouch_text end-->
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <div class="question_sec">
+                        <form id="contactform" name="contactform" method="post" novalidate>
+                            <div id="success">
+                                <p>Your message was sent successfully!</p>
+                            </div>
+                            <div id="error">
+                                <p>Something went wrong, try refreshing and submitting the form again.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="input_field">
+                                        <input type="text" name="name" placeholder="Your name">
+                                    </div><!--input_field end-->
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="input_field">
+                                        <input type="number" name="phone" placeholder="Phone">
+                                    </div><!--input_field end-->
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="input_field">
+                                        <input type="email" name="email" placeholder="Your e-mail">
+                                    </div><!--input_field end-->
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="input_field">
+                                        <textarea name="message" placeholder="Your question"></textarea>
+                                    </div><!--input_field end-->
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="submit_btn">
+                                        <input type="submit" id="submit" name="submit" value="Send Message">
+                                    </div><!--submit_btn end-->
+                                </div>
+                            </div>
+                        </form>
+                    </div><!--question-sec end-->
+                </div>
+            </div>
+        </section><!--getin_touch end-->
+    </div>	
+</div><!--page-content end-->
+{{ partial "choose-services.html" . }}
+
+{{ end }}
