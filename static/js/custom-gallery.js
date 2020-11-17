@@ -15,12 +15,12 @@ let slideIn = false;
 (function () {
     let imgContainers = document.querySelectorAll('.gallery-info');
     for (let i = 0; i < imgContainers.length; i++) {
-        imgContainers[i].style.backgroundImage = `url('/images/customer-jobs/residential-jobs/residential-${i + 1}.jpg')`;
+        imgContainers[i].style.backgroundImage = `url('../images/customer-jobs/residential-jobs/residential-${i + 1}.jpg')`;
         imgContainers[i].style.backgroundPosition = 'center';
         imgContainers[i].style.backgroundSize = 'cover';
     }
     for (let i = 0; i < figure.length; i++) {
-        figure[i].style.backgroundImage = `url('/images/customer-jobs/residential-jobs/residential-${i + 1}.jpg')`;
+        figure[i].style.backgroundImage = `url('../images/customer-jobs/residential-jobs/residential-${i + 1}.jpg')`;
         figure[i].style.backgroundPosition = 'center';
         figure[i].style.backgroundSize = 'cover';
     }
