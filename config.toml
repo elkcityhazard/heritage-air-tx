@@ -1,4 +1,4 @@
-baseURL = "http://127.0.0.1:1313/"
+baseURL = "http://127.0.0.1:1313/heritage-air-tx"
 languageCode = "en-us"
 publishDir = "docs"
 title = "Heritage Air Services, LLC - HVAC Services - Venus, Texas"
