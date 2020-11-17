@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Commercial HVAC Services - , Texas on Heritage Air Services, LLC - HVAC Services - Venus, Texas</title>
-    <link>http://127.0.0.1:1313/services/commercial/</link>
+    <link>/heritage-air-tx/services/commercial/</link>
     <description>Recent content in Commercial HVAC Services - , Texas on Heritage Air Services, LLC - HVAC Services - Venus, Texas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://127.0.0.1:1313/services/commercial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/heritage-air-tx/services/commercial/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

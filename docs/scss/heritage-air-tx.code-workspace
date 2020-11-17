@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../heritage-air-default"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "heritage-air-tx"
+	}
+}
