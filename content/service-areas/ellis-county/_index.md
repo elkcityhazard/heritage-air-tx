@@ -22,7 +22,7 @@ url: /service-areas/ellis-county
 - India
 - Italy
 - Maypearl
-- Midlothia
+- Midlothian
 - Milford
 
 * Oak Leaf

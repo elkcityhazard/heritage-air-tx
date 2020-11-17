@@ -248,6 +248,14 @@ header > .top_header {
     margin: 0em .5em 1em;
 }
 
+.fgt-logo {
+    background-color: #333;
+    background-image: url('../images/heritage-air-circle-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+}
 /********************
 ** Page ID's*********
 *********************/
@@ -380,6 +388,7 @@ ul.nss_list li {
 
 
 
+
 /********************
 5. Why Choose Us
 *********************/
@@ -428,7 +437,7 @@ ul.nss_list li {
 
 .proudly-serving {
     font-size: 1.5em;
-    margin: .5 auto;
+    margin: 1.5em auto .33em;
     font-weight: 700;
 }
 
@@ -833,10 +842,6 @@ ul.footer-nav-menu li a {
         width: 85%;
     }
 
-    .service-img {
-        width: auto;
-        min-height: 300px;
-    }
 
     section.block:nth-child(4) {
         padding-top: 2em !important;
