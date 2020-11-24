@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/demo/services/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/services/commercial/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/contact-us/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/gallery/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/services/protection-plans/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/services/new-commercial-system-sales/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/services/new-residential-system-sales/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/service-areas/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/service-areas/dallas-county/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/service-areas/ellis-county/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/service-areas/johnson-county/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/service-areas/parker-county/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/service-areas/rockwall-county/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/service-areas/tarrant-county/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/services/residential/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/services/residential-preventative-maintenance/</loc>
+  </url>
+  
+  <url>
+    <loc>/demo/tags/</loc>
+  </url>
+  
+</urlset>

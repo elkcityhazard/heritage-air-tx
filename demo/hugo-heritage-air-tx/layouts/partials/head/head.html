@@ -1,0 +1,39 @@
+<head>
+    <title>
+        {{ block "title" . }}
+        {{.Site.Title}} - {{.Params.title }} {{ end }}
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Calling Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.BaseURL }}img/favicon.png">
+    <!-- Calling Favicon -->
+    <!-- ********************* -->
+    <!-- CSS files -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/animate.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/all.min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/nice-select.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/magnific-popup.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/meanmenu.css" media="all">
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/twentytwenty.css" type="textcss" media="screen" />
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/default.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/style.css">
+    <link rel="stylesheet" class="color-changing" href="{{ .Site.BaseURL }}css/color.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/responsive.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/overrides.css">
+    {{ if .Params.cards }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/cards.css">    {{ end }}
+
+    {{ if .Params.gallery }}
+    <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/lightslider.min.css" />
+    <link rel="stylesheet" href="{{.Site.BaseURL}}css.gallery.css"> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/lightslider.min.js"></script>
+    {{ end }}
+    <!-- End CSS files -->
+</head>

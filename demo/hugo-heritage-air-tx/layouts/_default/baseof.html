@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head/head.html" . }}
+<body>
+    {{ partial "head/header.html" . }}
+
+    {{ block "main" . }}
+    {{ end }}
+
+    {{ block "footer" . }}
+    <!-- {{ partial "components/service-section.html" . }}
+
+    {{ partial "components/coupons.html" . }}  -->
+    
+    {{ partial "components/testimonials.html" . }} 
+
+    {{ partial "components/proudly-serving.html" . }} 
+
+    {{ partial "components/cartoon-cta.html" . }}
+    {{ partial "footer/footer.html" . }} 
+
+{{ partial "footer/scripts.html" . }}
+
+    {{ end }}
+
+    <!-- Preloader end -->
+
+</body>
+
+</html>

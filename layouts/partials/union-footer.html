@@ -85,11 +85,13 @@
 </footer>
 <!-- Custom Schrader.co footer tag -->
 <div class="schrader-footer">
-    <div class="container text-center">
-        Copyright © 2016-
-        <script>document.write(new Date().getFullYear())</script> Heritage Air Texas | Website developed
+    <div class="container text-center" id="theYear">
+        <script>
+        let year = new Date().getFullYear();
+        document.getElementById('theYear').textContent = `Copyright © 2016-${year} Heritage Air Texas | Website developed
         &amp; hosted by
-        <a href="https://schrader.co" target="blank">Schrader Web Solutions</a>
+        <a href="https://schrader.co" target="blank">Schrader Web Solutions</a>`
+        </script> 
 
     </div>
 </div>

@@ -1,0 +1,134 @@
+
+
+article p {
+    margin: 1em auto;
+    max-width: 100ch;
+    padding: 1em 2em;
+    text-align: left;
+}
+
+.bg-beige {
+    background: beige;
+    margin: 0 auto;
+}
+
+.bg-blue-opacity {
+    background-color: rgba(41, 137, 216, 0.85);
+}
+
+.top-logo {
+    height: 0;
+    visibility: hidden;
+}
+
+.text-shadow {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+
+.carousel-item {
+    padding: 4em;
+}
+
+#year + a:hover {
+    color: #fff;
+}
+
+
+.cartoon {
+    background: #005eff;
+    border-top: 7px solid #bb202e;
+    display: block;
+    margin: 0;
+    margin-top: -7px;
+    padding: 0;
+    position: relative;
+}
+
+
+.cta-body {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.cta-body >img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.cta-body-header h4,
+.cta-body-header h5 {
+    color: #fff;
+    font-weight: bolder;
+    margin: 1em auto;
+}
+
+.cta-body-header h4 {
+    font-size: 2em;
+}
+
+.cta-body > h5 {
+    color: #fff !important;
+    font-size: 1.75em;
+}
+
+.cta-body > h5 > a {
+    color: #e6e6e6 !important;
+}
+.cta-body > h5 > a:hover {
+    color: #fff;
+}
+
+
+#footer-tag {
+    background-color:#001c4c;
+    color: #fff;
+    min-height: 60px;
+    margin: 0 auto;
+    min-width: 100%;
+}
+
+#footer-tag .container {
+    margin: 1em auto;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .top-logo {
+        height: auto;
+        visibility: visible;
+    }
+
+    .cta-body {
+        padding-bottom: 1em;
+    }
+
+    .cta-body >img {
+        position: absolute;
+        display: block;
+        left: -5%;
+        top: -65px;
+    
+    }
+
+    span.text-left > a:nth-child(1) {
+        margin-right: 0px;
+    }
+
+    #the-footer > .container {
+        max-width: 90%;
+    }
+
+    #the-footer  h3 {
+        color: #e6e6e6 !important;
+    }
+
+    address.pr-40 {
+        color: #fff;
+    }
+
+}

@@ -1,6 +1,5 @@
-baseURL = "/heritage-air-tx"
+baseURL = "localhost:1313/"
 languageCode = "en-us"
 publishDir = "docs"
 title = "Heritage Air Services, LLC - HVAC Services - Venus, Texas"
-relativeURLs = true
 
